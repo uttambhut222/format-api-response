@@ -30,6 +30,9 @@ Run composer update to download the package
 use TheOpenEyes\FormatApiResponse\FormatApiResponse;
 
 FormatApiResponse::response($code, $message, $count, $payload);
-
+// code = REST response code
+// message = Response message/status
+// count = Number of records (Optional)
+// payload = Transmitted data/records in response (Optional)
 
 ```
