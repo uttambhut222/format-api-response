@@ -33,7 +33,7 @@ FormatApiResponse::response($code, $message, $count, $payload);
 ```
 
 Here,
-code: REST response code
-message: Response message/status
-count: Number of records (Optional)
-payload: Transmitted data/records in response (Optional)
+- code: REST response code
+- message: Response message/status
+- count: Number of records (Optional)
+- payload: Transmitted data/records in response (Optional)
