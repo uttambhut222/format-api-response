@@ -1,5 +1,5 @@
 {
-    "name": "openeyes/format-api-response",
+    "name": "theopeneyes/format-api-response",
     "description": "A Laravel package for generate format for API response in JSON",
     "keywords": [
         "laravel",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "OpenEyes",
+            "name": "TheOpenEyes",
             "homepage": "https://theopeneyes.com/"
         }
     ],
@@ -19,13 +19,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "OpenEyes\\FormatApiResponse\\": "src/"
+            "TheOpenEyes\\FormatApiResponse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OpenEyes\\FormatApiResponse\\FormatApiResponseServiceProvider"
+                "TheOpenEyes\\FormatApiResponse\\FormatApiResponseServiceProvider"
             ]
         }
     }

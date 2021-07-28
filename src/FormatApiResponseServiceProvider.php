@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenEyes\FormatApiResponse;
+namespace TheOpenEyes\FormatApiResponse;
 
 use Illuminate\Support\ServiceProvider;
 
