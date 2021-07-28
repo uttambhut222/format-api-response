@@ -4,7 +4,7 @@ namespace TheOpenEyes\FormatApiResponse;
 
 class FormatApiResponse
 {
-    public static function message($code, $message, $count = null, $payload = null)
+    public static function response($code, $message, $count = null, $payload = null)
     {
         return response()->json([
             'code' => $code,
